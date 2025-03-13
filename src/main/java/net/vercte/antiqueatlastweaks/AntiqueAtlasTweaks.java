@@ -13,9 +13,7 @@ public class AntiqueAtlasTweaks implements ModInitializer {
             new AntiqueAtlasItem());
 
     @Override
-    public void onInitialize() {
-
-    }
+    public void onInitialize() {}
 
     public static ResourceLocation at(String path) {
         return new ResourceLocation(ID, path);
