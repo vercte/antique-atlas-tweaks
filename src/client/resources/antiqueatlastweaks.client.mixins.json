@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.vercte.antiqueatlastweaks.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "AntiqueAtlasMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MapKeybindMixin"
+  ]
+}
