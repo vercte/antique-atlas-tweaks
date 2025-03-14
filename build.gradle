@@ -50,12 +50,14 @@ dependencies {
 processResources {
     inputs.property "version", project.version
     inputs.property "minecraft_version", project.minecraft_version
+    inputs.property "antique_atlas_version", project.antique_atlas_version
     inputs.property "loader_version", project.loader_version
     filteringCharset "UTF-8"
 
     filesMatching("fabric.mod.json") {
         expand "version": project.version,
                 "minecraft_version": project.minecraft_version,
+                "antique_atlas_version": project.antique_atlas_version,
                 "loader_version": project.loader_version
     }
 }

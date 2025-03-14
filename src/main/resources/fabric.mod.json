@@ -3,9 +3,20 @@
   "id": "antique_atlas_item",
   "version": "${version}",
   "name": "AntiqueAtlasItem",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "adds a dedicated item for the Antique Atlas, and makes you need it for the world map",
+  "authors": [
+    {
+      "name": "Vercte",
+      "contact": {
+        "homepage": "https://vercte.net"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/antique-atlas-tweaks",
+    "sources": "https://github.com/vercte/antique-atlas-tweaks",
+    "issues": "https://github.com/vercte/antique-atlas-tweaks/issues"
+  },
   "license": "MIT",
   "icon": "icon.png",
   "environment": "*",
@@ -27,6 +38,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "antique_atlas": ">=${antique_atlas_version}"
   }
 }
