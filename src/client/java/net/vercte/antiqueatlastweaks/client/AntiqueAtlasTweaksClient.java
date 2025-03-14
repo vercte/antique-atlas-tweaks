@@ -10,6 +10,6 @@ public class AntiqueAtlasTweaksClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(e ->
-                e.addAfter(Items.BOOK, AntiqueAtlasTweaks.ANTIQUE_ATLAS));
+                e.addAfter(Items.MAP, AntiqueAtlasTweaks.ANTIQUE_ATLAS));
     }
 }
